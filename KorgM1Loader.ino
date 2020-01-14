@@ -20,7 +20,7 @@ static const uint8_t C_MAJOR[] = { 60, 62, 64, 65, 67, 69, 71, 72 };
 #define DUMP_DATA                1
 #define DUMP_DATA_BYTES_PER_LINE 32
 #define BLOCK_SIZE               64
-#define BLOCK_DELAY              10
+#define BLOCK_DELAY              1000
 #define DELAY_AFTER_F0           400
 
 void setup() {
